@@ -1,0 +1,22 @@
+#!/usr/bin/bash
+
+#INFO: instalar en ubuntu20
+
+echo "PASO: Lista de paquetes instalados"
+apt list --installed
+
+echo "PASO: Desinstalar chrome para usar el de selenium"
+sudo apt purge google-chrome-stable
+
+echo "PASO: Desinstalar chromum para usar el de selenium"
+sudo apt purge chromium-browser
+
+echo "PASO: Instalar chromium reciente"
+sudo apt install -y chromium-browser
+
+echo "PASO: Instalar requirements.txt"
+pip install -r requirements.txt
+
+echo "PASO: Instalar paquetes para test"
+pip install requests beautifulsoup4 pandas webdriver-manager selenium
+
