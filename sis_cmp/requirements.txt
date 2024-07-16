@@ -22,3 +22,4 @@ webencodings==0.5.1
 whitenoise==5.1.0
 wrapt==1.11.1
 xhtml2pdf==0.2.3
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
