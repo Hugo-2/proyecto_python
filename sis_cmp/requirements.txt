@@ -21,4 +21,4 @@ sqlparse==0.3.0
 webencodings==0.5.1
 whitenoise==5.1.0
 wrapt==1.11.1
-xhtml2pdf==0.2.3
+xhtml2pdf==0.2.17
